@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.visit-card {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: red;
+  border-radius: 10px;
+  width: 500px;
+  /* max-height: 700px; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+header,
+footer {
+  font-weight: bold;
+  padding: 10px;
+}
+
+header {
+  font-size: 32px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+footer {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.visit-card main {
+  background-color: rgba(140, 6, 6, 0.474);
+  padding-left: 20px;
+}
+
+.visit-card address {
+  margin: 20px 0;
+  display: inline-block;
+  /* display: inline; */
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.visit-card img {
+  float: right;
+  height: 160px;
+}
+
+/*  */
+
+p {
+  margin: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  color: gray;
+  text-align: center;
+  line-height: 100px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button {
+  /* margin: 20px; */
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 3px 3px 5px rgb(56, 56, 56), 2px 2px 5px white inset;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgb(47, 47, 47);
+}
