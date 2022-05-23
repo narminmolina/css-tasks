@@ -1,0 +1,27 @@
+div {
+  float: left;
+  height: 400px;
+  width: 200px;
+}
+
+.bluebox {
+  background-color: rgb(143, 143, 254);
+}
+.greenbox {
+  background-color: rgb(119, 250, 134);
+}
+.yellowbox {
+  background-color: rgb(215, 250, 119);
+  position: relative;
+}
+
+.redbox {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  bottom: 0px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
