@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.firstphoto {
+    background-image: url(city1.jpg);
+    background-size: cover;
+    padding: 250px;
+    background-attachment: fixed;
+    opacity: 70%;
+
+}
+
+.secondphoto {
+    background-image: url(city2.jpg);
+    background-size: cover;
+    padding: 150px;
+    background-attachment: fixed;
+    opacity: 70%;
+}
+
+.thirdphoto {
+    background-image: url(city3.jpg);
+    background-size: cover;
+    padding: 150px;
+    background-attachment: fixed;
+    opacity: 70%;
+}
+
+.bbg {
+    background-color: black;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 10px;
+    width: 100px;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.blackbacksection {
+    background-color: rgb(36, 36, 37);
+    margin: 0px;
+    color: white;
+
+}
+
+.whitetex {
+    color: white;
+}
+
+p {
+    padding: 10px;
+    margin: 0px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0px;
+}
