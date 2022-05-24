@@ -1,0 +1,83 @@
+  article {
+      background-color: lightgray;
+      padding: 20px;
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  header {
+      text-align: center;
+  }
+
+  .profile {
+      background-image: url(Aristotel.jpeg);
+      background-color: red;
+      background-size: cover;
+      border-radius: 50%;
+      height: 250px;
+      width: 200px;
+      /* margin-left: 150px; */
+      /* margin-top: 5px; */
+      margin: 5px auto 0;
+  }
+
+  img {
+      /* width: 200px; */
+      /* height: 250px; */
+      /* border-radius: 50px / 100px; */
+      border-radius: 50%;
+      height: 250px;
+      width: 200px;
+  }
+
+  .bordered {
+      border-style: solid;
+      border-radius: 2px;
+      border-color: gray;
+      margin: 10px;
+      text-align: center;
+      font-size: 10px;
+      color: rgb(49, 48, 48);
+  }
+
+  .selector-1.selector-2 {
+      property: value;
+  }
+
+  h1.large-header {
+      font-size: 200%;
+  }
+
+  .grayback {
+      background-color: rgb(169, 169, 169);
+      padding: 5px 0;
+      margin: 1px 0;
+  }
+
+  .lastp {
+      text-align: center;
+  }
+
+  a:link {
+      color: blue;
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: yellow;
+  }
+
+  a:hover {
+      color: hotpink;
+  }
+
+  footer {
+      margin-left: 100px;
+      margin-top: 10px;
+      font-style: italic;
+  }
+
+  .namecolor {
+      color: aqua;
+  }
