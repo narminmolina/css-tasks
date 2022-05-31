@@ -6,29 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About</title>
-  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" />
 </head>
 
 <body>
-  <header class="clearfix">
+  <header>
     <div class="container">
       <div class="row">
-        <div class="col-2"><img class="logo" src="./images/LOGO.svg" alt="logo" /></div>
+        <div class="col-2">
+          <a href="/"><img class="logo" src="./images/logo.svg" alt="logo" /></a>
+        </div>
         <div class="col-8">
           <nav>
             <ul>
-              <li><a class="about" href="/about">About</a></li>
+              <li><a class="active" href="/about">About</a></li>
               <li><a href="/product">Products</a></li>
-              <li><a href="contact">Contacts</a></li>
-              <li><a href="Help">Help</a></li>
+              <li><a href="/contact">Contacts</a></li>
+              <li>
+                <ul>
+                  <li></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
         <div class="col-2">
           <div class="auth-buttons clearfix">
-            <a class="signin" href="./signin sign">Sign in</a>
-            <a class="main-button">Sign up</a>
+            <a class="signin" href="/">Sign in</a>
+            <a class="main-button" href="/">Sign up</a>
           </div>
         </div>
       </div>
@@ -39,18 +45,23 @@
       <div class="container">
         <div class="row">
           <div class="col-7">
-            <div class="videobox"><iframe width="635" height="512" src="https://www.youtube.com/embed/WdUZWgkuaJo"
-                title="YouTube video player" frameborder="0"
+            <div class="videobox">
+              <iframe 
+                width="635" 
+                height="512" 
+                src="https://www.youtube.com/embed/WdUZWgkuaJo"
+                title="YouTube video player" 
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe></div>
+                allowfullscreen></iframe>
+              </div>
           </div>
           <div class="col-5">
             <div class="text-wrapper">
               <a class="aboutus">About us</a>
               <h1 class="main-head">We scartch, build and play together</h1>
               <p class="main-p">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit
-                quaerendum. At nam
-                minimum ponderum.Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
+                quaerendum. At nam minimum ponderum.Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
               <a href="/contact" class="contact">Contact us</a>
             </div>
           </div>
