@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+      .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 75%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+      [class*='col-'] {
+        float: left;
+        border: 1px solid;
+      }
+      .row::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
+      body {
+        text-align: center;
+        font-family: fantasy;
+        font-weight: bold;
+        margin: 30px 20px 0 20px;
+      }
+
+      .logo,
+      .headcontent {
+        padding: 25px;
+        border: 3px solid rgb(54, 38, 38);
+        border-radius: 3px;
+      }
+      nav,
+      footer {
+        padding: 10px;
+        border: 3px solid rgb(54, 38, 38);
+        margin: 10px 0;
+      }
+      .photo,
+      .message {
+        padding: 70px;
+        border: 3px solid rgb(54, 38, 38);
+      }
+      .message1,
+      .message2,
+      .message3 {
+        padding: 100px 5px;
+        border: 3px solid rgb(54, 38, 38);
+        white-space: nowrap;
+        margin: 10px 0;
+      }
+      /* why marging did not collapse above*/
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-3 logo">Logo</div>
+        <div class="col-9 headcontent">Header Content</div>
+      </div>
+    </header>
+    <nav><div class="row">Primary Navigation</div></nav>
+    <main>
+      <div class="row">
+        <div class="col-6 photo">Photo Area</div>
+        <div class="col-6 message">Primary Messaging area</div>
+      </div>
+    </main>
+    <section>
+      <div class="row">
+        <div class="col-4 message1">Secondary messaging #1</div>
+        <div class="col-4 message2">Secondary messaging #2</div>
+        <div class="col-4 message3">Secondary messaging #3</div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">Footer content</div>
+    </footer>
+  </body>
+</html>

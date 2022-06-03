@@ -1,0 +1,235 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.cotainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1110px;
+}
+body {
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-top: 80px;
+  font-family: 'Inter', sans-serif;
+}
+section {
+  margin-bottom: 80px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-bottom: 36px;
+  margin: 0px;
+}
+/* First section start */
+.introduction {
+  width: auto;
+  padding-top: 55px;
+  padding-right: 67px;
+  padding-bottom: 54px;
+  padding-left: 78px;
+  background-color: #2945ff;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+}
+.text-wrapper {
+  float: left;
+  width: 847px;
+  height: 176px;
+  margin: 0px;
+  overflow-wrap: anywhere;
+  z-index: 1;
+}
+.m-head {
+  font-size: 72px;
+  line-height: 110%;
+  margin-top: 14px;
+  margin-bottom: 4px;
+  margin-right: 0px;
+}
+.abc {
+  margin-bottom: 14px;
+  padding: 0px;
+  margin-right: 0px;
+  z-index: 3;
+}
+
+.m-head,
+.abc {
+  color: #ffffff;
+}
+.circle {
+  margin: 0px;
+  z-index: 2;
+  padding: 0px;
+  width: 323px;
+  height: 323px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #ffeded 0%, rgba(255, 237, 237, 0) 100%);
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* first section ends */
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 21px;
+  padding-bottom: 24px;
+}
+.flex-row-container:first-child {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+/* I don't know how to align values in letter space to the left
+also I don't know how to align them in column
+i also tried to make them as column at the begining */
+.letter-space {
+  margin-right: 80px;
+}
+.items {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.table-head {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  padding-bottom: 24px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container:nth-child(5) {
+  margin-right: 52px;
+  background-color: #ff2929;
+}
+.boxes {
+  width: 118px;
+  height: 118px;
+}
+.blue {
+  background-color: #2945ff;
+}
+.green {
+  background-color: #15bc1c;
+}
+.yellow {
+  background-color: #ffdd29;
+}
+.orange {
+  background-color: #ff8329;
+}
+.black {
+  background-color: #000000;
+}
+.gray {
+  background-color: #000000cc;
+}
+.l-gray {
+  background-color: #0000001a;
+}
+.box-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.squares {
+  font-size: 16px;
+  background-color: #ffe8e8;
+  display: inline-block;
+  margin: 0px;
+}
+.squares:not(:last-child) {
+  margin-right: 24px;
+}
+.x-small {
+  padding: 8px;
+}
+.small {
+  padding: 24px;
+}
+.medium {
+  padding: 44px 38px;
+}
+.large {
+  padding: 52px 46px;
+}
+.x-large {
+  padding: 72px 66px;
+}
+/* Icons start here */
+
+.svg-icons {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+.svg-icons:not(:last-child) {
+  margin-right: 17px;
+}
+.first-row-icon {
+  margin-bottom: 16px;
+}
+.add {
+  background-image: url(../figma/1./images/add.svg);
+}
+.save {
+  background-image: url(../figma/1./images/save.svg);
+}
+.dashboard {
+  background-image: url(../figma/1./images/Vector.svg);
+}
+.graph {
+  background-image: url(../figma/1./images/graph.svg);
+}
+.one {
+  background-image: url(../figma/1./images/one.svg);
+}
+.assignment {
+  background-image: url(../figma/1./images/assignment.svg);
+}
+.sofa {
+  background-image: url(../figma/1./images/sofa.svg);
+}
+.download {
+  background-image: url(../figma/1./images/download.svg);
+}
+.tune {
+  background-image: url(../figma/1./images/tune.svg);
+}
+.dash {
+  background-image: url(../figma/1./images/dash.svg);
+}
+.team {
+  background-image: url(../figma/1./images/team.svg);
+}
+.document {
+  background-image: url(../figma/1./images/document.svg);
+}
+.archive {
+  background-image: url(../figma/1./images/archive.svg);
+}
+.playstore {
+  background-image: url(../figma/1./images/playstore.svg);
+}

@@ -6,6 +6,7 @@
 
 body {
     margin: 10px;
+    color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -16,7 +17,7 @@ body {
     padding: 250px;
     background-attachment: fixed;
     opacity: 70%;
-
+    height: 80vh;
 }
 
 .secondphoto {
@@ -27,6 +28,10 @@ body {
     opacity: 70%;
 }
 
+.section-1 {
+    color: #000;
+}
+
 .thirdphoto {
     background-image: url(city3.jpg);
     background-size: cover;
@@ -35,33 +40,29 @@ body {
     opacity: 70%;
 }
 
+section {
+    padding: 30px;
+}
+
 .bbg {
     background-color: black;
     text-align: center;
-    color: white;
     letter-spacing: 10px;
-    font-size: 10px;
+    font-size: 32px;
     width: 100px;
     padding: 5px;
     white-space: nowrap;
+    text-transform: uppercase;
+    /* margin: 0 auto; */
 }
 
 .blackbacksection {
     background-color: rgb(36, 36, 37);
     margin: 0px;
-    color: white;
-
 }
 
-.whitetex {
-    color: white;
-}
 
-p {
-    padding: 10px;
-    margin: 0px;
-}
-
+p,
 h1 {
     padding: 10px;
     margin: 0px;
