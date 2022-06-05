@@ -1,0 +1,156 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 8fr 4fr 2fr;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 1110px;
+}
+
+/*  mobile */
+@media screen and (max-width: 576px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .item-3 {
+    padding-top: 0px;
+  }
+}
+/* Not sure why can't remove padding from top */
+@media screen and (max-width: 576px) {
+  .item-7 {
+    order: 1;
+  }
+}
+/* not sure why I can't move banner up with order */
+@media screen and (max-width: 576px) {
+  .item-6 {
+    order: 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  .item-5 {
+    order: 3;
+  }
+}
+/* End of mobile */
+
+.item-1 {
+  background-color: rgb(11, 11, 59);
+  padding: 15px;
+}
+
+.item-2 {
+  grid-column: 2/5;
+  background-color: rgb(183, 42, 66);
+  padding: 15px;
+}
+.item-3 {
+  grid-column: span 4;
+  background-color: rgb(122, 174, 222);
+  padding-top: 200px;
+}
+
+.item-4 {
+  grid-column: span 2;
+  background-color: rgb(11, 11, 59);
+  padding: 95px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  color: white;
+  text-align: center;
+}
+
+.nested {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.item-5 {
+  background-color: rgb(179, 245, 241);
+  padding: 15px;
+}
+
+.item-6 {
+  background-color: rgb(103, 201, 132);
+  padding: 15px;
+}
+.item-7 {
+  grid-column: span 4;
+  background-color: rgb(245, 211, 76);
+  text-align: center;
+  padding: 45px;
+}
+
+/* For Tablet */
+@media screen and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 2fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .item-1 {
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width: 900px) {
+  .item-3 {
+    grid-column: span 4;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .item-4 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+}
+@media screen and (max-width: 900px) {
+  .item-2 {
+    grid-column: span 1;
+    grid-row: 3/6;
+  }
+}
+@media screen and (max-width: 900px) {
+  .item-7 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nested {
+    grid-column: 2/4;
+    grid-row: 5/6;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .item-5 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+}
+@media screen and (max-width: 900px) {
+  .item-6 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+}
+@media screen and (max-width: 900px) {
+  .empty {
+    display: none;
+  }
+}
+/* not sure how to deal with space */
+/* End of Tablet */
