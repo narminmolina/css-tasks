@@ -18,6 +18,7 @@ main {
   /* not sure if I need max-width */
   padding-bottom: 190px;
   padding-top: 36px;
+  padding-left: 195px;
   position: relative;
 }
 main::before {
@@ -32,8 +33,11 @@ main::before {
   bottom: 0;
 }
 /* Start of Header */
-.home-page {
-  margin-left: 195px;
+.header-container {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  margin-right: auto;
 }
 .header-wrapper {
   position: relative;
@@ -90,8 +94,15 @@ a {
   height: 16px;
   background-image: url(../icons/toggler.svg);
 }
+
 /* end of Header */
 /* Start of Main */
+.home-container {
+  width: 100%;
+  max-width: 1050px;
+  position: relative;
+  margin-right: auto;
+}
 .container {
   width: 100%;
   margin-left: auto;
@@ -100,7 +111,6 @@ a {
   position: relative;
 }
 .home-wrapper {
-  width: 600px;
   margin-top: 226px;
 }
 .home-wrapper > h1 {
@@ -146,6 +156,9 @@ a {
   border-radius: 37px;
   color: #0d5c63;
 }
+@media screen and (max-width: 800px) {
+}
+
 /* end of Main */
 /* Industry Section Starts */
 .industry {
