@@ -45,6 +45,7 @@ main {
 footer {
   grid-area: footer;
 }
+
 /* for mobile */
 @media screen and (max-width: 600px) {
   .grid-container {
