@@ -496,9 +496,39 @@ footer {
 .icons > div:not(:last-child) {
   margin-right: 20px;
 }
-/* I had to give the measurments randomly here */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  /* minmax(100px, 1fr) ?? */
+  margin-top: 70px;
+  margin-bottom: 70px;
+  gap: 30px;
+  margin-left: 0px;
+}
 
-.footer-table {
+.grid-items ul {
+  padding: 0px;
+  margin: 0px;
+}
+.grid-items > ul > li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #bdbdbd;
+  margin-top: 10px;
+  list-style: none;
+}
+.grid-items > ul > li > strong {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* .footer-table {
   width: 65%;
   text-align: left;
   margin-top: 70px;
@@ -520,7 +550,7 @@ footer {
   letter-spacing: 0.2px;
   color: #bdbdbd;
   margin-top: 10px;
-}
+} */
 .right-reserved {
   font-weight: 600;
   font-size: 14px;
@@ -530,6 +560,10 @@ footer {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 195px;
   background-color: #17213c;
+}
+.right-reserved p {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1050px;
 }
