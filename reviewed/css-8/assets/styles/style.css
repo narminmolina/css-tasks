@@ -1,0 +1,108 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+}
+
+.container {
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
+header {
+  position: absolute;
+  padding: 36px 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-wrapper nav {
+  display: flex;
+}
+
+.header-wrapper nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .logo {
+  width: 88px;
+  height: 22px;
+}
+
+header .logo-link {
+  margin-right: auto;
+}
+
+.nav-actions {
+  margin-left: 39px;
+  display: flex;
+  gap: 20px;
+}
+
+header button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.search {
+  background-image: url(../icons/search.svg);
+}
+.basket {
+  background-image: url(../icons/shop.svg);
+}
+.burger {
+  right: -140px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  background-image: url(../icons/toggler.svg);
+}
+
+main section {
+  padding-top: 295px;
+  padding-bottom: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images//background.jpg');
+}
+
+section h1 {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  margin: 0;
+  width: 600px;
+}
+
+section p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 35px;
+  line-height: 30px;
+  margin-bottom: 0;
+  width: 550px;
+}
