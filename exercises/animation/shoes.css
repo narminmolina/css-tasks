@@ -58,7 +58,9 @@ body {
 .right-leg {
   animation-delay: 1s;
 }
-
+.right-leg .shoes {
+  animation-delay: 1s;
+}
 @keyframes leg-swing {
   0%,
   100% {
