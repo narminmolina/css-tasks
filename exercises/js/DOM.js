@@ -1,7 +1,3 @@
-// Loop over all of the lis inside the ol tag and give them a background color of "green".
-// Change document title to "Made with JS"
-// Change the value lang attribute of html tag from "en" to "az".
-
 //Task 1
 
 let pieceOfText = document.getElementById('highlighted');
@@ -29,7 +25,7 @@ newClass.classList.add('main');
 newClass.classList.remove('main');
 
 //task 8
-let oList = document.querySelectorAll('ol>li');
+let oList = document.querySelectorAll('ol li');
 console.log(oList);
 
 for (let i = 0; i < oList.length; i++) {
@@ -46,3 +42,26 @@ document.querySelector('title').textContent = 'Made with Js';
 
 //task 10
 document.documentElement.setAttribute('lang', '');
+
+//Task 1 for event
+let headings = document.querySelectorAll('.events');
+Array.from(headings).forEach(function (headings) {
+  headings.addEventListener('click', function (e) {
+    e.target.remove();
+  });
+});
+
+//Task 2 for events
+
+let displayRandomImage = function () {
+  let imageArray = new Array('a.jpg', 'e.jpg', 'w.jpg');
+  let randomNum = Math.floor(Math.random() * imageArray.length);
+  randomImage = imageArray[randomNum];
+
+  let mainImage = document.querySelector('#mainImage');
+
+  mainImage.src = `./images/${randomImage}`;
+};
+
+let btn = document.querySelector('.task2 button');
+btn.addEventListener('click', displayRandomImage);
